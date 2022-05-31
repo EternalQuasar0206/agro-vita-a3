@@ -14,7 +14,7 @@
 
 .home-page section {
     width: 60%;
-    height: 300px;
+    height: 400px;
     background: rgba(0, 0, 0, 0.8);
 
     border-radius: 1em;
@@ -31,13 +31,12 @@
     height: 70%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .home-page section .item {
     height: 100%;
     width: 20%;
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
@@ -49,4 +48,8 @@
 .home-page section .item img {
     height: 120px;
     width: 120px;
+}
+
+.home-page section .item h3 {
+    height: 20%;
 }
