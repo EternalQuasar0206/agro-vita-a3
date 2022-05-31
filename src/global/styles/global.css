@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+:root {
+    --foreground-color: #006400;
+}
+
+* {
+    color: #eee;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-family: "Space Grotesk";
+    font-size: 2.2em;
+}
