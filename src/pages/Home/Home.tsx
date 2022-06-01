@@ -12,11 +12,11 @@ function Home() {
                     </div>
                     <div className="item">
                         <img src="/img/icons/agricultura-de-colheita.png" />
-                        <h3>David indo almoçar</h3>
+                        <h3>Proveitoso para o pequeno agricultor</h3>
                     </div>
                     <div className="item">
                         <img src="/img/icons/campo.png" />
-                        <h3>Roça ruim que só dá mato</h3>
+                        <h3>Qualidade garantida</h3>
                     </div>
                 </div>
             </section>
