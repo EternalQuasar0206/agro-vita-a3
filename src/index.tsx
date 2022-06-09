@@ -6,6 +6,7 @@ import { Login } from './pages/Login/Login'
 import { Register } from './pages/Register/Register'
 import { AboutUs } from './pages/AboutUs/AboutUs'
 import "./global/styles/global.css"
+import { Contact } from './pages/Contact/Contact'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,6 +20,7 @@ root.render(
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );
