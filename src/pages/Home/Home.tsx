@@ -1,6 +1,10 @@
+import { BigButton } from "../../components/BigButton/BigButton"
 import "./Home.css"
+import { useNavigate } from "react-router-dom"
 
 function Home() {
+    const navigate = useNavigate()
+
     return (
         <div className="home-page">
             <section>
@@ -19,6 +23,7 @@ function Home() {
                         <h3>Qualidade garantida</h3>
                     </div>
                 </div>
+                <BigButton onClick={() => navigate("/login")} text="Acessar" />
             </section>
         </div>
     )

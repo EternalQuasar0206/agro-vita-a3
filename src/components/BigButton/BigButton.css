@@ -1,0 +1,11 @@
+.big-button {
+    cursor: pointer;
+
+    background: var(--button-color);
+    width: 20%;
+    margin-block: 7%;
+
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 2em;
+}

@@ -2,6 +2,7 @@
 
 :root {
     --foreground-color: #006400;
+    --button-color: rgb(181, 181, 50);
 }
 
 * {
