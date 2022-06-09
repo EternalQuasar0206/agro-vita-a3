@@ -1,4 +1,5 @@
-.register {
+
+.home-page {
     width: 100%;
     height: 100vh;
     
@@ -11,7 +12,7 @@
     align-items: center;
 }
 
-.register section {
+.home-page section {
     width: 60%;
     height: 500px;
     background: rgba(0, 0, 0, 0.8);
@@ -24,21 +25,4 @@
     justify-content: center;
 
     font-family: "Space Grotesk";
-}
-
-.register input {
-    border: 2px solid rgb(172, 63, 63);
-    padding: 1%;
-    background: rgba(0, 0, 0, 0.8);
-    margin-block: 1%;
-}
-
-.register button {
-    cursor: pointer;
-
-    border: 2px solid rgb(172, 63, 63);
-    padding: 1%;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    margin-block: 1%;
 }
