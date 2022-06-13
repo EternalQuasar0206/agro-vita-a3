@@ -5,7 +5,7 @@ function Infos() {
     return (
         <div className="infos">
             <section>
-                <h1>Sobre nós</h1>
+                <h1>Agronegócio no Brasil</h1>
                 <p>
                 O agronegócio é o conjunto de atividades econômicas que derivam ou estão conectadas à produção agrícola e seu comércio. Trata-se de um importante pilar da economia brasileira.
                 Aliás, engana-se quem pensa que o agronegócio restringe-se à fazenda e à colheita. Existem vários exemplos de agronegócios, como empresas de fabricação de máquinas agrícolas, fornecimento de sementes e produtoras de agroquímicos.
