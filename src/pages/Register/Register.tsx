@@ -1,6 +1,7 @@
 import "./Register.css"
 import react from "react"
 import { useState } from "react"
+
 function Register() {
     const [name, setName] = useState("");
     const updateName = (event: {

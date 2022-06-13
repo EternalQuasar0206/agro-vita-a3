@@ -1,8 +1,10 @@
 import "./Login.css";
 import react from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const navigate = useNavigate();
   const [name, setName] = useState("");
   const updateName = (event: {
     target: { value: react.SetStateAction<string> };
@@ -41,8 +43,8 @@ function Login() {
           alert("Erro no login");
         }}>Fazer Login</button>
         <button><a href="./register">Não tem uma conta? Crie uma conta aqui!</a></button>
-        <a href="./contact">Fale conosco</a>
-        <a href="./aboutUs">Quem somos?</a>
+        <a onClick={() => navigate("./contact")}>Fale conosco</a>
+        <a onClick={() => navigate("./aboutUs")}>Quem somos?</a>
       </section>
     </div>
   );
