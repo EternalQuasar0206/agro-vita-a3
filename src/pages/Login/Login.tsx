@@ -40,9 +40,9 @@ function Login() {
           
           alert("Erro no login");
         }}>Fazer Login</button>
-        <button><a href="./Register">Não tem uma conta? Crie uma conta aqui!</a></button>
-        <a href="./Contact">Fale conosco</a>
-        <a href="./AboutUS">Quem somos?</a>
+        <button><a href="./register">Não tem uma conta? Crie uma conta aqui!</a></button>
+        <a href="./contact">Fale conosco</a>
+        <a href="./aboutUs">Quem somos?</a>
       </section>
     </div>
   );
