@@ -42,8 +42,8 @@ function Register() {
                   alert("Já existe esse registro");
                 }}>Registrar</button>
                 <button><a href="./Login">Já tem uma conta? Faça login aqui!</a></button>
-                <a href="./Contact">Fale conosco</a>
-                <a href="./AboutUS">Quem somos?</a>
+                <a href="/Contact">Fale conosco</a>
+                <a href="/AboutUS">Quem somos?</a>
             </section>
         </div>
     )
