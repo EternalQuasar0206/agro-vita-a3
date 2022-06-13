@@ -36,15 +36,16 @@ function Login() {
             const info = JSON.parse(localStorage.getItem(name) ?? "{}");
             if(info[1] === password) {
               alert("Logado com sucesso");
+              navigate("/infos");
               return;
             }
           }
           
           alert("Erro no login");
         }}>Fazer Login</button>
-        <button><a href="./register">Não tem uma conta? Crie uma conta aqui!</a></button>
-        <div onClick={() => navigate("./contact")}>Fale conosco</div>
-        <div onClick={() => navigate("./aboutUs")}>Quem somos?</div>
+        <button><a href="/register">Não tem uma conta? Crie uma conta aqui!</a></button>
+        <div onClick={() => navigate("/contact")}>Fale conosco</div>
+        <div onClick={() => navigate("/aboutUs")}>Quem somos?</div>
       </section>
     </div>
   );

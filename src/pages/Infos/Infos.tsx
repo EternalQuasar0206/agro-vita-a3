@@ -1,6 +1,4 @@
 import "./Infos.css";
-import react from "react";
-import { useState } from "react";
 
 function Infos() {
 
