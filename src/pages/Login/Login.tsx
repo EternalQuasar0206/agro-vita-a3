@@ -43,8 +43,8 @@ function Login() {
           alert("Erro no login");
         }}>Fazer Login</button>
         <button><a href="./register">Não tem uma conta? Crie uma conta aqui!</a></button>
-        <a onClick={() => navigate("./contact")}>Fale conosco</a>
-        <a onClick={() => navigate("./aboutUs")}>Quem somos?</a>
+        <div onClick={() => navigate("./contact")}>Fale conosco</div>
+        <div onClick={() => navigate("./aboutUs")}>Quem somos?</div>
       </section>
     </div>
   );
