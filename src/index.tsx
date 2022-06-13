@@ -7,7 +7,6 @@ import { Register } from './pages/Register/Register'
 import { AboutUs } from './pages/AboutUs/AboutUs'
 import "./global/styles/global.css"
 import { Contact } from './pages/Contact/Contact'
-import { Infos } from './pages/Infos/Infos'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
