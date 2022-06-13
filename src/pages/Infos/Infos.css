@@ -13,7 +13,7 @@
 }
 
 .infos section {
-  padding-top: 350px;
+  padding-top: 250px;
 
   width: 80%;
   height: 100%;
@@ -30,6 +30,6 @@
 }
 
 .infos section p {
-  width: 60%;
+  width: 100%;
   text-align: center;
 }
