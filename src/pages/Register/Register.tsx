@@ -1,6 +1,7 @@
 import "./Register.css"
 import react from "react"
 import { useState } from "react"
+import jsonToType from "json-typer"
 
 function Register() {
     const [name, setName] = useState("");
